@@ -1,0 +1,11 @@
+.tripList{
+    align-items: center;
+    align-content: center;
+}
+
+.tripElement{
+    float: left;
+    margin: 1rem;
+    max-width: 25rem;
+    min-width: 20rem;
+}
