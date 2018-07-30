@@ -15,7 +15,10 @@ class Resume extends Component{
             img = './DSCN3207.JPG'
             name = "Código rutero"
             description = "Viaje a lo largo de la arentina codeando y conociendo"
-            cities = {["Sierra de la ventana", "Las grutas"]}
+            cities = {[{
+                name: "Sierra de la ventana",
+                places: "Cerro Bahía Blanca"
+            }, "Las grutas"]}
             places = {["Cerro Bahía Blanca", "Piedras Rojas"]}
 
         />];
