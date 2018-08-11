@@ -1,3 +1,6 @@
 [submodule "TripPlanningCore"]
 	path = TripPlanningCore
 	url = https://github.com/MarceloGV/TripPlanningCore
+[submodule "src/TripPlanningCore"]
+	path = src/TripPlanningCore
+	url = https://github.com/MarceloGV/TripPlanningCore
