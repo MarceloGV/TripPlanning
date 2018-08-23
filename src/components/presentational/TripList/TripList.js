@@ -4,8 +4,6 @@ import './TripList.css';
 class TripList extends Component{
     constructor(props){
         super(props);
-        console.log(props.title);
-        console.log(props.trips);
         this.state = {title: props.title, trips: [], type: props.type};
     }
 
@@ -14,6 +12,11 @@ class TripList extends Component{
     }
 
     render(){
+        if(!this.state.tripList)
+            return(
+                <div></div>
+            );
+
         const listItems = this.state.trips.map(
             trip => <div className="tripElement">{trip}</div>
         );

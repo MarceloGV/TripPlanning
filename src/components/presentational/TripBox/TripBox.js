@@ -4,12 +4,6 @@ import './TripBox.css';
 class TripBox extends Component{
     constructor(props){
         super(props);
-        this.state = {img: props.img,
-            name: props.name,
-            description: props.description,
-            cities: props.cities,
-            places: props.places
-        }
     }
     render(){
         let img = './DSCN3207.JPG';
@@ -38,7 +32,7 @@ class TripBox extends Component{
                     <div className="media-content">
                         <div className="content">
                             <p>
-                                <strong>{this.state.name}</strong> <small>@johnsmith</small> <small>31m</small>
+                                <strong>{this.props.trip.name}</strong> <small>@johnsmith</small> <small>31m</small>
                                 <br/>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
                             </p>
